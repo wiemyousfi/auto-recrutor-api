@@ -1,0 +1,13 @@
+body{
+    background-image: url('auto-recrutor.png');
+
+}
+
+
+
+h1 {
+    border: 2px #eee solid;
+    color: rgb(8, 8, 8);
+    text-align: center;
+    padding: 10px;
+}
