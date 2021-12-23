@@ -14,10 +14,12 @@ from utils import reviewer, Candidat
 app = Flask(__name__)
 
 # Google Sheets API Setup and connecting to sheet
+#added the credentials file to .gitignore to not push it to my github
 
 credential = ServiceAccountCredentials.from_json_keyfile_name("credentials.json",                                                            ["https://spreadsheets.google.com/feeds",                                                               "https://www.googleapis.com/auth/spreadsheets",                                                        "https://www.googleapis.com/auth/drive.file",                                                        "https://www.googleapis.com/auth/drive"])
 client = gspread.authorize(credential)
-#added the credentials file to .gitignore to not push it to my github
+
+#open the sheet by the name given to it on your drive
 gsheet = client.open("Candidats_data").sheet1
 
 MAIL_USERNAME = "user@gmail.com"
