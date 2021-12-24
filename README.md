@@ -2,7 +2,7 @@
 
 A minimal one route api app developed with [Flask](http://flask.pocoo.org/) framework. 
 
-The main purpose is to introduce how to implement the essential elements in web application with Flask, including
+The main purpose is retrieving data from a Google sheet and updating it with an api web application with Flask, this includes
 
 - connecting to a Google Sheets Spreadsheet on a Gmail account
 
@@ -116,7 +116,7 @@ There is only one route in this api app, it returns a message a costumised mail 
 ![](https://i.postimg.cc/G2JLq6dy/interv.png)
 
 
--**user**
+-**user(recrutor)**
 
 
 ![](https://i.postimg.cc/yxMSzm44/error-message.png)
