@@ -39,7 +39,7 @@ or allow less secured apps to acceed:
 
 - Step 3: add your api key: credentials.json to the project and set your email address and password , mine have bean removed!
 
-- Step 4: Go to this app's directory and run `python app.py`
+- Step 4: Go to this app's directory (/app) and run `python main.py`
 
 
 
